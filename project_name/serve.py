@@ -44,7 +44,7 @@ requires_auth_admin = functools.partial(auth._requires_auth, permission=PERM_ADM
 def insecure(): # pragma: no cover
     return "Insecure route."
 
-@app.get("/api/secure/secure")
+@app.get("/secure")
 @requires_auth_read
 def secure(request: Request): # pragma: no cover
     """Test for a secure route"""
