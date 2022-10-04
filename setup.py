@@ -52,7 +52,7 @@ if __name__ == "__main__":
     clear = lambda: subprocess.call('cls||clear', shell=True)
     clear()
     print("----------------------------------------------")
-    print("Welcome to the Flask+Auth0 Setup script")
+    print("Welcome to the FastAPI+Auth0 Setup script")
     print("----------------------------------------------")
 
     print()
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     #   - Port for Vue
     #   - Port for Vue UI
     # ----------------------------------------------------------
-    print("Please enter external port for Flask: ")
+    print("Please enter external port for FastAPI: ")
     port = input().strip()
 
     inplace_change("docker-compose.yml.snippet", "%%exposed_port%%", port)

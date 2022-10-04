@@ -1,5 +1,5 @@
-# Flask-Auth0 Quickstart Scaffolding Template
-This is a simple project to quickstart a project using Flask (Python), Docker, and Auth0 authentication.
+# FastAPI-Auth0 Quickstart Scaffolding Template
+This is a simple project to quickstart a project using FastAPI (Python), Docker, and Auth0 authentication.
 
 ## Requirements
 - Docker.  Docker-compose is recommended, but not required.
@@ -7,8 +7,8 @@ This is a simple project to quickstart a project using Flask (Python), Docker, a
 
 
 ## Setup Instructions
-0.  Clone this repository `git clone https://github.com/amunchet/flask-auth0-quickstart.git`
-1.  `cd flask-auth0-quickstart`
+0.  Clone this repository `git clone https://github.com/amunchet/fastapi-auth0-quickstart.git`
+1.  `cd fastapi-auth0-quickstart`
 2.  `./setup.py` (or `python setup.py`)
 3.  Follow the instructions.
 4.  Enjoy!
@@ -29,7 +29,7 @@ This project is meant to be a starting point.  From here, a typical workflow cou
 
 1.  `mv [PROJECT NAME] ..`
 2.  `cat docker-compose.yml >> ../docker-compose.yml`
-3.  `cd .. && rm -rf flask-auth0-quickstart`
+3.  `cd .. && rm -rf fastapi-auth0-quickstart`
 
 
 
@@ -45,8 +45,8 @@ If you have a problem, check to make sure your Auth0 permissions are configured 
 
 ## Design Notes
 
-The simple Flask application in `serve.py` is meant as a starting point.  
+The simple FastAPI application in `serve.py` is meant as a starting point.  
 
 Permissions are defined at the top of the file.
 
-From there, use the definied wrappers on flask routes.  Two examples are given, with and without a wrapper.
+From there, use the definied wrappers on FastAPI routes.  Two examples are given, with and without a wrapper.
