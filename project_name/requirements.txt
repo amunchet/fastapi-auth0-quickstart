@@ -1,6 +1,7 @@
-flask
-flask-cors
-gunicorn
+fastapi
+uvicorn
+websockets
+
 python-dotenv
 python-jose
 
