@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sample Flask app
+Sample FastAPI app
 """
 # Permissions scope names
 import functools

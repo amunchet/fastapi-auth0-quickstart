@@ -1,4 +1,4 @@
-"""Python Flask API Auth0 integration example
+"""Python FastAPI API Auth0 integration example
 """
 
 from functools import wraps, partial
@@ -6,7 +6,6 @@ import json
 from os import environ as env
 from six.moves.urllib.request import urlopen
 
-#from flask import request, _request_ctx_stack
 from fastapi import Request, HTTPException
 
 import inspect
